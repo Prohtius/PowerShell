@@ -47,3 +47,5 @@ Check until zero!\
 
 ![starting decryption](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/check_progress.png)
 ![fully decrypted!](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/fully_decrypted.png)
+
+Sysprep should run without complaining! 
