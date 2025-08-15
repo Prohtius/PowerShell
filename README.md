@@ -1,5 +1,39 @@
-![Prohtius Logo](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/ProhtiusText.png)
+<!-- ![Prohtius Logo](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/ProhtiusText.png) -->
 
 # Prohtius' PowerShell Scripts
 
-## Various PowerShell scripts used in my day-to-day management of Microsoft Server. 
+## Remove Some Bloatware and Things Breaking Sysprep in 24H2
+
+`
+$bloatapps = @(
+	"*WindowsMaps",
+	"MSTeams",
+	"*YourPhone",
+	"*ZuneMusic",
+	"*ZuneVideo",
+	"*WindowsMaps",
+	"*WindowsCamera",
+	"*WindowsAlarms",
+	"*Todos",
+	"*People",
+	"*MicrosoftOfficeHub",
+	"*MicrosoftSolitaireCollection",
+	"*Bing*",	
+	"*windowscommunicationsapps",
+	"*Clipchamp",
+	"*OutlookForWindows",
+	"*Windows.Photos",
+	"*WindowsSoundRecorder",
+	"*MicrosoftStickyNotes",
+	"*Copilot",
+	"*WindowsFeedbackHub",
+	"*StartExperiences*",
+	"*Widgets*"
+)
+
+foreach ($bloatapp in $bloatapps) 
+{
+	Get-AppxProvisionedPackage -Online | Where "DisplayName" -eq $bloatapp | Remove-AppxProvisionedPackage -Online -Verbose
+    Get-AppxPackage -Name $bloatapp -AllUsers | Remove-AppxPackage -AllUsers -Verbose
+}
+`
