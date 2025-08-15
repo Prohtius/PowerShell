@@ -33,3 +33,8 @@ Get-AppxProvisionedPackage -Online | Where "DisplayName" -eq $bloatapp | Remove-
 Get-AppxPackage -Name $bloatapp -AllUsers | Remove-AppxPackage -AllUsers -Verbose
 }
 ```
+## Disable Bitlocker on Fresh Windows 11 install
+`manage-bde -off C:`
+
+### *Repeat to check progress on decryption until fully decrypted*
+`maange-bde -status`
