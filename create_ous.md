@@ -1,3 +1,4 @@
+```powershell
 $domain = (Get-AdDomain).DistinguishedName
 $dnsRoot = (Get-AdDomain).DNSRoot
 
@@ -95,3 +96,4 @@ foreach ($baseOU in $base_OUs)
         }        
     }
 }
+```
