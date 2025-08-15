@@ -29,7 +29,7 @@ $bloatapps = @(
 
 foreach ($bloatapp in $bloatapps)
 {
-Get-AppxProvisionedPackage -Online | Where "DisplayName" -eq $bloatapp | Remove-AppxProvisionedPackage -Online -Verbose
+Get-AppxProvisionedPackage -Online | Where "DisplayName" -like $bloatapp | Remove-AppxProvisionedPackage -Online -Verbose
 Get-AppxPackage -Name $bloatapp -AllUsers | Remove-AppxPackage -AllUsers -Verbose
 }
 ```
