@@ -1,6 +1,6 @@
 ## Remove Some Bloatware and Things Breaking Sysprep in 24H2
 
-```
+```powershell
 $bloatapps = @(
 "*WindowsMaps",
 "MSTeams",
@@ -34,7 +34,16 @@ Get-AppxPackage -Name $bloatapp -AllUsers | Remove-AppxPackage -AllUsers -Verbos
 }
 ```
 ## Disable Bitlocker on Fresh Windows 11 install
-`manage-bde -off C:`
+```powershell 
+manage-bde -off C:
+```
+![starting decryption](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/off_cmd.png)
 
 ### *Repeat to check progress on decryption until fully decrypted*
-`maange-bde -status`
+```powershell
+maange-bde -status
+```
+Check until zero!\
+
+![starting decryption](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/check_progress.png)
+![fully decrypted!](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/fully_decrypted.png)
