@@ -23,7 +23,7 @@ $bloatapps = @(
 "*MicrosoftStickyNotes",
 "*Copilot",
 "*WindowsFeedbackHub",
-"*Start*",
+"Microsoft.StartExperiencesApp",
 "*Widget*",
 "*family*"
 )
