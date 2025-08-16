@@ -41,7 +41,7 @@ manage-bde -off C:
 
 ### *Repeat to check progress on decryption until fully decrypted*
 ```powershell
-maange-bde -status
+manage-bde -status
 ```
 Check until zero!\
 
