@@ -24,7 +24,8 @@ $bloatapps = @(
 "*Copilot",
 "*WindowsFeedbackHub",
 "*StartExperiences*",
-"*Widget*"
+"*Widget*",
+"*family*"
 )
 
 foreach ($bloatapp in $bloatapps)
