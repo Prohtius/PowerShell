@@ -37,7 +37,8 @@ Get-AppxPackage -Name $bloatapp -AllUsers | Remove-AppxPackage -AllUsers -Verbos
 ```powershell 
 manage-bde -off C:
 ```
-![starting decryption](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/off_cmd.png)
+
+![Disable Bitlocker on C:](../images/check_progress.png)
 
 ### *Repeat to check progress on decryption until fully decrypted*
 ```powershell
@@ -45,7 +46,7 @@ manage-bde -status
 ```
 Check until zero!\
 
-![starting decryption](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/check_progress.png)
-![fully decrypted!](https://prohtiusaws-0001.s3.us-east-1.amazonaws.com/fully_decrypted.png)
+![starting decryption](../images/check_progress.png)
+![fully decrypted!](../images/fully_decrypted.png)
 
 Sysprep should run without complaining! 
