@@ -2,8 +2,12 @@
 ```powershell
 <#
   Author: Steve Grimstead (Prohtius)
+  Date: 08-19-2025
+  Version: 1.0  
   Purpose: Creates the first domain controller in a forest using the
     domain name provided.
+
+  Link: https://raw.githubusercontent.com/Prohtius/PowerShell/refs/heads/main/active%20directory/add_1st_domain_controller..ps1
 
   *****************************
   *** Only for new forests! ***
