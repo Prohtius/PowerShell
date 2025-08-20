@@ -6,7 +6,7 @@
   Purpose: Creates the first domain controller in a forest using the
     domain name provided.
 
-  Link: 
+  Link: https://raw.githubusercontent.com/Prohtius/PowerShell/refs/heads/main/active%20directory/add_1st_domain_controller..ps1
 
   *****************************
   *** Only for new forests! ***
