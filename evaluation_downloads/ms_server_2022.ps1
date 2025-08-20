@@ -3,10 +3,9 @@
   Date: 08-20-2025
   Version: 1.0
   Target OS: Microsoft Windows
-  Purpose: Creates new webclient, then uses webclient to download the MS Server 2022 ISO image and save it to the destination.
-
-  Link: 
+  Purpose: Creates new webclient, then uses webclient to download the MS Server 2022 ISO image and save it to the destination.  
 #>
+
 #-----------------------------------------------------
 #|  Change variables in this section as needed       |
 #-----------------------------------------------------
