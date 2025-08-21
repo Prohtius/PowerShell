@@ -32,5 +32,5 @@
 ## 2025
 | OS Version | ISO or VHD | Link |
 |----- | ----- | ----- |
-| 2025 - MS Server | ISO | [https://go.microsoft.com/fwlink/?linkid=2293215&clcid=0x409&culture=en-us&country=us](https://go.microsoft.com/fwlink/?linkid=2293312&clcid=0x409&culture=en-us&country=us) |
+| 2025 - MS Server | ISO | https://go.microsoft.com/fwlink/?linkid=2293312&clcid=0x409&culture=en-us&country=us |
 | 2025 - MS Server | VHD | https://go.microsoft.com/fwlink/?linkid=2293215&clcid=0x409&culture=en-us&country=us |
