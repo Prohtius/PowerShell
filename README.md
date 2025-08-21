@@ -2,6 +2,11 @@
 
 # Prohtius' PowerShell Scripts
 
+## Quickly run the bloatware script
+```powershell
+$ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/Prohtius/PowerShell/refs/heads/main/bloatware/remove_bloatware.ps1
+Invoke-Expression $($ScriptFromGitHub.Content)
+```
 
 <!-- 
 🎉
