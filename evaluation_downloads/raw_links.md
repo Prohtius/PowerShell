@@ -42,5 +42,5 @@
 | Win11 Enterprise ARM | ISO | https://go.microsoft.com/fwlink/?linkid=2288179&clcid=0x409&culture=en-us&country=us |
 | Win11 Enterprise LTSC | ISO | https://go.microsoft.com/fwlink/?linkid=2289029&clcid=0x409&culture=en-us&country=us |
 
-## Windows Admin Center
+## Windows Admin Center (MSI file)
 https://go.microsoft.com/fwlink/?linkid=2220149&clcid=0x409&culture=en-us&country=us
