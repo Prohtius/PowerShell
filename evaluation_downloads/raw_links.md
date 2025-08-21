@@ -34,3 +34,10 @@
 |----- | ----- | ----- |
 | 2025 - MS Server | ISO | https://go.microsoft.com/fwlink/?linkid=2293312&clcid=0x409&culture=en-us&country=us |
 | 2025 - MS Server | VHD | https://go.microsoft.com/fwlink/?linkid=2293215&clcid=0x409&culture=en-us&country=us |
+
+## Windows 11
+| OS Version | ISO or VHD | Link |
+|----- | ----- | ----- |
+| Win11 Enterprise | ISO | https://go.microsoft.com/fwlink/?linkid=2289031&clcid=0x409&culture=en-us&country=us |
+| Win11 Enterprise ARM | ISO | https://go.microsoft.com/fwlink/?linkid=2288179&clcid=0x409&culture=en-us&country=us |
+| Win11 Enterprise LTSC | ISO | https://go.microsoft.com/fwlink/?linkid=2289029&clcid=0x409&culture=en-us&country=us |
