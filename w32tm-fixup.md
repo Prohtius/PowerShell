@@ -1,3 +1,4 @@
+```
 Net stop w32time
 W32tm  /unregister
 W32tm /register
@@ -15,3 +16,4 @@ net start w32time
 w32tm /resync /nowait
 w32tm /query /status
 w32tm /query /peers
+```
