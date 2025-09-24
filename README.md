@@ -8,8 +8,10 @@ $ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/Prohtius
 Invoke-Expression $($ScriptFromGitHub.Content)
 ```
 ## Initial Settings
+```
 $ScriptFromGitHub = Invoke-WebRequest https://github.com/PowerShell/PowerShell/releases/download/v7.5.3/PowerShell-7.5.3-win-x64.msi
 Invoke-Expression $($ScriptFromGitHub.Content)
+```
 
 <!-- 
 🎉
