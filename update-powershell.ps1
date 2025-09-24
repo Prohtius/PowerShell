@@ -53,7 +53,7 @@ try
 
   try
   {
-    Start-Process "msiexec.exe" /i
+    Start-Process "msiexec.exe" /i $save_destination
   }
   catch
   {
