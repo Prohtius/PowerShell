@@ -50,6 +50,15 @@ try
   $webClient.DownloadFile($source, $save_destination) 
 
   Write-Host "Download completed." -ForegroundColor Green
+
+  try
+  {
+    Start-Process "msiexec.exe" /i
+  }
+  catch
+  {
+    Write-Error $_.Error.Message
+  }
 }
 catch 
 {
