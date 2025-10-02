@@ -10,7 +10,7 @@ galactic-republic.org/
 ├─ computers/
 │  ├─ senate/
 ```
-oupath = "ou=senate,ou=computers,dc=galactic-republic,dc=org"
+Using OU structure above, `$ouPath = "ou=senate,ou=computers,dc=galactic-republic,dc=org"`
 
 ```
 $ouPath = "add your path here"
