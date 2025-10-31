@@ -7,6 +7,11 @@
 $ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/Prohtius/PowerShell/refs/heads/main/bloatware/remove_bloatware.ps1
 Invoke-Expression $($ScriptFromGitHub.Content)
 ```
+
+## Download System Setup installer for VSCode
+```powershell
+curl -L "https://go.microsoft.com/fwlink/?linkid=852157" --output C:\tmp\vscode.exe
+```
 <!--
 ## Initial Settings
 ```
