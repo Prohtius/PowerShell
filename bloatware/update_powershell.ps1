@@ -22,7 +22,7 @@ $folder_path = Read-Host "Enter folder to save file to"
 #|  End change variables section                     |
 #-----------------------------------------------------
 
-$source = "https://github.com/PowerShell/PowerShell/releases/download/v7.5.3/PowerShell-7.5.3-win-x64.msi"
+$source = "https://github.com/PowerShell/PowerShell/releases/download/v7.5.4/PowerShell-7.5.4-win-x86.msi"
 
 $msi_name = ($source -split "/")[-1]
 
@@ -46,9 +46,7 @@ if (!(Test-Path -Path "$($target_drive)\$($folder_path)"))
 
 try
 {
-  $webclient = New-Object System.Net.WebClient
-  
-  $webClient.DownloadFile($source, $save_destination) 
+  & curl -L $source --output "$($save_destination)"
 
   Write-Host "Download completed." -ForegroundColor Green
 
