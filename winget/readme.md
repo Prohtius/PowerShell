@@ -28,7 +28,7 @@ add-appxpackage -path "c:\tmp\winget\winget.msixbundle"
 ### Curl and PowerShell
 Using Curl for the download also works, however, Curl in PowerShell is an alias for "Invoke-WebRequest" which is obviously not the same. 😄
 From a Command Prompt (No "PS" before prompt)
-```batch
+```console
 curl -L "https://github.com/microsoft/winget-cli/releases/download/v1.10.390/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle" --output "C:\tmp\winget-install.msxibundle"
 ```
 In PowerShell
@@ -36,13 +36,16 @@ In PowerShell
 add-appxpackage -path "c:\tmp\winget-install.msixbundle"
 ```
 
-### Download System Setup Installer for VSCode
-```
+### Download System Installer for VSCode
+Installing Visual Studio (VSCode) through WinGet installs the **_User Installer_** instead of the **_System Installer_**
+```console
 curl -L "https://go.microsoft.com/fwlink/?linkid=852157" --output C:\tmp\vscode.exe
+
+c:\tmp\vscode.exe
 ```
 
 ## Update All Packages
 Updates all packages, includes those listed as "unknown" and attempts silent upgrades.
-```powershell
+```console
 winget upgrade --all --include-unknown --silent
 ```
