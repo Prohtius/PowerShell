@@ -1,5 +1,10 @@
 # Winget
 
+* [Install Winget Using PowerShell](#install-winget)
+* [Install Winget Using curl and PowerShell](#curl-and-powershell)
+* [Download System Installer for VSCode](#download-system-installer-for-vscode)
+* [Update All Packages](#update-all-packages)
+
 ## Install Winget
 ### PowerShell
 Invoke-WebRequest can be used instead of WebClient, but to me, it feels slower.
