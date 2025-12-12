@@ -1,3 +1,5 @@
+* [24H2 Remove Bloatware](./24H2_remove_bloatware.md)
+
 #Copy/Paste into PowerShell to run from GiHub
 
 ```powershell
