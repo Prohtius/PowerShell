@@ -13,6 +13,12 @@ Invoke-Expression $($ScriptFromGitHub.Content)
 ```powershell
 curl -L "https://go.microsoft.com/fwlink/?linkid=852157" --output C:\tmp\vscode.exe
 ```
+
+## Install Hyper-V, Hypervisor Platform, Virtual Machine Platform, and WSL
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Hyper-V-All","HypervisorPlatform","VirtualMachinePlatform","Microsoft-Windows-Subsystem-Linux"
+```
+
 <!--
 ## Initial Settings
 ```
