@@ -4,6 +4,8 @@
   Version: 1.0
   Target OS: Microsoft Windows
   Purpose: Creates new webclient, then uses webclient to download the MS Server 2025 ISO image and save it to the destination.
+
+  curl -L "https://github.com/PowerShell/PowerShell/releases/download/v7.5.4/PowerShell-7.5.4-win-x64.msi" --output c:\tmp\powershell-7.5.4.msi
 #>
 
 #-----------------------------------------------------
