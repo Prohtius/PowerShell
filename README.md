@@ -4,8 +4,11 @@
 # Prohtius' PowerShell Scripts
 PowerShell scripts for doing the things.
 
-* [Insall Winget (PowerShell)](#install-winget)
+* Install Winget
+  * [PowerShell](#install-winget)
+  * [Curl and PowerShell](#curl-and-powershell)  
 * [Download System Setup Installer for VSCode](#download-system-setup-installer-for-vscode)
+* [Install Hyper-V, Hypervisor Platform, Virtual MAchine Platform, and WSL](#install-hyper-v-hypervisor-platform-virtual-machine-platform-and-wsl)
 
 # Quick Scripts
 ## Install Winget
@@ -33,6 +36,7 @@ Write-Host "Download complete." -ForegroundColor Green
 
 add-appxpackage -path "c:\tmp\winget\winget.msixbundle"
 ```
+
 ### Curl and PowerShell
 Using Curl for the download also works, however, Curl in PowerShell is an alias for "Invoke-WebRequest" which is obviously not the same. 😄
 From a Command Prompt (No "PS" before prompt)
@@ -43,12 +47,6 @@ In PowerShell
 ```powershell
 add-appxpackage -path "c:\tmp\winget-install.msixbundle"
 ```
-
-## Download System Setup Installer for VSCode
-```
-curl -L "https://go.microsoft.com/fwlink/?linkid=852157" --output C:\tmp\vscode.exe
-```
-
 
 ## Quickly run the bloatware script
 ```powershell
