@@ -21,7 +21,7 @@ $folder_path = "tmp"
 #|  End change variables section                     |
 #-----------------------------------------------------
 
-$source = "https://github.com/PowerShell/PowerShell/releases/download/v7.5.3/PowerShell-7.5.3-win-x64.msi"
+$source = "https://github.com/PowerShell/PowerShell/releases/download/v7.5.4/PowerShell-7.5.4-win-x64.msi"
 
 $msi_name = ($source -split "/")[-1]
 
