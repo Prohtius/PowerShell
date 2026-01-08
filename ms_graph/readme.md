@@ -45,3 +45,8 @@ foreach ($gdap_relationship in $gdap_relationships)
 
 $relationships_table | FT -auto -wrap
 ```
+
+#### Connect to Specific Tenant
+```powershell
+Connect-MgGraph -TenantId <tenant_id> -Scopes CurrentUser
+```
