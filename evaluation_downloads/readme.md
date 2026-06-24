@@ -1,4 +1,4 @@
-# Direct Download Links
+# Direct Download Links (ISO files)
 [Microsoft Server 2012r2](https://go.microsoft.com/fwlink/p/?LinkID=2195443&clcid=0x409&culture=en-us&country=US)<br/>
 [Microsoft Server 2016](https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US)<br/>
 [Microsoft Server 2019](https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US)<br/>
