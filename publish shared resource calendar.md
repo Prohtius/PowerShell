@@ -16,3 +16,11 @@ Get-MailboxCalendarFolder -Identity conference.room@company.com:\Calendar | FL
 View Resource Calendar
 </a>
 ```
+```html
+<iframe src="https://outlook.office365.com/owa/calendar/...."
+width="100%"
+height="800"
+frameborder="0">
+</iframe>
+Show more lines
+```
