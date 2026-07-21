@@ -1,3 +1,5 @@
+linking a Resource Calendar in Office365 to public website step-by-step
+
 ```powershell
 connect-exchangeonline -identity <username>@<domain_name>
 
